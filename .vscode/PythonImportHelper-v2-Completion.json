@@ -1,0 +1,55 @@
+[
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Day1.1",
+        "description": "Day1.1",
+        "peekOfCode": "s = input()\nx = Counter(s)\nl = []\nfor key in x.keys():\n    l.append(key)\nl.sort()\nfor i in range(len(l)):\n    print(l[i], x.get(l[i]))",
+        "detail": "Day1.1",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Day1.1",
+        "description": "Day1.1",
+        "peekOfCode": "x = Counter(s)\nl = []\nfor key in x.keys():\n    l.append(key)\nl.sort()\nfor i in range(len(l)):\n    print(l[i], x.get(l[i]))",
+        "detail": "Day1.1",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "Day1.1",
+        "description": "Day1.1",
+        "peekOfCode": "l = []\nfor key in x.keys():\n    l.append(key)\nl.sort()\nfor i in range(len(l)):\n    print(l[i], x.get(l[i]))",
+        "detail": "Day1.1",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Day1.2",
+        "description": "Day1.2",
+        "peekOfCode": "n = int(input())\ndigits = list(map(int, input().split()))\ndigits.sort()\nprint(*digits)",
+        "detail": "Day1.2",
+        "documentation": {}
+    },
+    {
+        "label": "digits",
+        "kind": 5,
+        "importPath": "Day1.2",
+        "description": "Day1.2",
+        "peekOfCode": "digits = list(map(int, input().split()))\ndigits.sort()\nprint(*digits)",
+        "detail": "Day1.2",
+        "documentation": {}
+    }
+]
